@@ -1,6 +1,11 @@
 <div align="center">
 
-<img src="docs/images/robi-eyes.gif" alt="ROBI szemei" width="420">
+<table>
+<tr>
+<td align="center"><img src="docs/images/robi-device.png" alt="A kész R.O.B.I. eszköz" height="300"><br><sub>📷 A kész eszköz</sub></td>
+<td align="center"><img src="docs/images/robi-eyes.gif" alt="ROBI szemei" height="300"><br><sub>👀 ROBI, a Barát</sub></td>
+</tr>
+</table>
 
 # R.O.B.I.
 
