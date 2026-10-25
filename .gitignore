@@ -1,0 +1,15 @@
+# Szemelyes adatok - SOHA ne keruljon fel!
+secrets.h
+
+# Arduino IDE / arduino-cli forditasi kimenet
+build/
+*.bin
+*.elf
+*.map
+
+# Szerkesztok, rendszerfajlok
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
