@@ -2,7 +2,7 @@
 
 <table>
 <tr>
-<td align="center"><img src="docs/images/robi-device.png" alt="A kész R.O.B.I. eszköz" height="300"><br><sub>📷 A kész eszköz</sub></td>
+<td align="center"><img src="docs/fotok/00-robi.jpg" alt="A kész R.O.B.I. eszköz" height="300"><br><sub>📷 A kész eszköz</sub></td>
 <td align="center"><img src="docs/images/robi-eyes.gif" alt="ROBI szemei" height="300"><br><sub>👀 ROBI, a Barát</sub></td>
 </tr>
 </table>
@@ -17,9 +17,9 @@
 ![Arduino IDE](https://img.shields.io/badge/Arduino_IDE-2.x-00878F?logo=arduino&logoColor=white)
 ![Kijelző](https://img.shields.io/badge/kijelz%C5%91-ST7735_1.8%22-00BCD4)
 ![Hang](https://img.shields.io/badge/hang-MAX98357_I2S-8A2BE2)
-![Licenc](https://img.shields.io/badge/licenc-MIT-2EA043)
+![Licenc](https://img.shields.io/badge/licenc-PolyForm_Noncommercial-F39C12)
 
-[Funkciók](#-funkciók) · [ROBI arcai](#-robi-arcai) · [Gyors indítás](#-gyors-indítás) · [Gombok](#-gombok) · [Hardver](#-hardver) · [Útmutatók](#-részletes-útmutatók)
+[Fotók](#-így-néz-ki-élőben) · [Funkciók](#-funkciók) · [ROBI arcai](#-robi-arcai) · [Gyors indítás](#-gyors-indítás) · [Gombok](#-gombok) · [Hardver](#-hardver) · [Útmutatók](#-részletes-útmutatók) · [Licenc](#-licenc)
 
 </div>
 
@@ -39,6 +39,23 @@ Egy gombnyomásra **repülőradarrá** változik, és élőben hallgathatod rajt
 <div align="center">
 <img src="docs/images/robi-gallery.png" alt="R.O.B.I. – a négy program" width="620">
 </div>
+
+---
+
+## 📷 Így néz ki élőben
+
+<table>
+<tr>
+<td align="center" width="50%"><img src="docs/fotok/01-elolrol.jpg" alt="ROBI felülről" width="100%"><br><sub>Felülről – fent az ESP32 és a 3 programgomb, középen a kijelző, alul a 2 vezérlőgomb</sub></td>
+<td align="center" width="50%"><img src="docs/fotok/02-ferden.jpg" alt="ROBI ferdén" width="100%"><br><sub>A Barát szemei bekapcsolás után</sub></td>
+</tr>
+<tr>
+<td align="center" width="50%"><img src="docs/fotok/03-oldalrol.jpg" alt="ROBI oldalról" width="100%"><br><sub>Oldalról – a panel alatt a MAX98357 erősítő, oldalt a főkapcsoló</sub></td>
+<td align="center" width="50%"><img src="docs/fotok/04-felulrol-ferden.jpg" alt="ROBI az asztalon" width="100%"><br><sub>Távtartókon áll, hátul alatta a hangszóró</sub></td>
+</tr>
+</table>
+
+<div align="center"><sub>Az összes fotó: <a href="docs/fotok">docs/fotok</a></sub></div>
 
 ---
 
@@ -238,7 +255,22 @@ MainLauncher/
 ├─ MiniFaceApp.h        👀 Barát (szemek)
 └─ MiniFaceTypes.h, SpinnerFrames.h
 docs/                   PDF útmutatók, képek
+docs/fotok/             📷 valódi fotók a kész eszközről
 ```
+
+---
+
+## 📜 Licenc
+
+ROBI a **[PolyForm Noncommercial 1.0.0](LICENSE)** licenc alatt érhető el.
+
+| ✅ Szabad | ❌ Nem szabad |
+|---|---|
+| használni, megépíteni, otthon, iskolában, hobbiból | eladni az eszközt vagy a kódot |
+| másolni és továbbadni | pénzért szolgáltatást vagy terméket építeni rá |
+| módosítani, saját változatot készíteni | kereskedelmi célra bármilyen formában felhasználni |
+
+Továbbadáskor a licencet és a szerző nevét meg kell tartani. A felhasznált könyvtárak (Adafruit GFX/ST7735 – BSD, ArduinoJson – MIT, ESP32-audioI2S – GPL-3.0) a saját licencük alá tartoznak.
 
 ---
 
@@ -248,6 +280,6 @@ docs/                   PDF útmutatók, képek
 
 <div align="center">
 <br>
-<sub>Készítette <b>Szekeres Zoltán</b> · <a href="LICENSE">MIT licenc</a></sub><br>
+<sub>Készítette <b>Szekeres Zoltán</b> · <a href="LICENSE">PolyForm Noncommercial 1.0.0</a> – kereskedelmi célra nem használható</sub><br>
 <sub>Ha tetszik ROBI, adj neki egy ⭐-ot!</sub>
 </div>
